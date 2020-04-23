@@ -1,1 +1,2 @@
-# Istic-Android-ejercicios
+# Istic-Android-ejercicios 
+Pablo Bonaduce
