@@ -7,52 +7,66 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="148dp"
-        android:layout_height="46dp"
+        android:id="@+id/textView3"
+        android:layout_width="162dp"
+        android:layout_height="37dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        android:text="HOLA ISTIC!!!"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@id/textView2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ACEPTAR"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="636dp" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="240dp"
-        android:layout_height="61dp"
+        android:layout_width="206dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="424dp"
         android:text="ISTIC2020"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="215dp" />
+        android:layout_width="220dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="120dp"
+        android:text="BIENVENIDOS"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="191dp"
+        android:clickable="true"
         android:text="Acepto las  condiciones"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="508dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </android.support.constraint.ConstraintLayout>
