@@ -1,0 +1,2 @@
+rootProject.name='PostingScreen'
+include ':app'
