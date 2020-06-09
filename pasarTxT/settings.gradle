@@ -1,0 +1,2 @@
+rootProject.name='pasarTxT'
+include ':app'
