@@ -5,7 +5,7 @@
     android:id="@+id/LoginScreeen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.P4B0N.primerparcial.com.P4B0N.#QuedateEnCasa.LoginActivity">
+    tools:context="com.P4B0N.primerparcial.LoginActivity">
 
 
     <Button
@@ -19,10 +19,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CLAVE" />
+        app:layout_constraintTop_toBottomOf="@+id/etPassL" />
 
     <EditText
-        android:id="@+id/E-MAIL"
+        android:id="@+id/etEmailL"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -30,15 +30,15 @@
         android:layout_marginEnd="32dp"
         android:ems="10"
         android:hint="E-mail"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/CLAVE"
+        android:inputType="date|textUri|textShortMessage|textLongMessage|textAutoCorrect|numberSigned|textVisiblePassword|textWebEditText|textMultiLine|textNoSuggestions|textFilter|number|datetime|textWebEmailAddress|textPersonName|text|textPhonetic|textCapSentences|textPassword|textAutoComplete|textImeMultiLine|textPostalAddress|numberDecimal|textEmailAddress|numberPassword|textCapWords|phone|textEmailSubject|textCapCharacters|time|textWebPassword"
+        app:layout_constraintBottom_toTopOf="@+id/etPassL"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/CLAVE"
+        android:id="@+id/etPassL"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -50,7 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/E-MAIL" />
+        app:layout_constraintTop_toBottomOf="@+id/etEmailL" />
 
     <Button
         android:id="@+id/btnRegistrarse"
