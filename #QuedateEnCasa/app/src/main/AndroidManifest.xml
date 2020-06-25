@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.P4B0N.primerparcial">
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -18,8 +17,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <!-- Set to true if app can function without mobile companion app. -->
+        <activity android:name=".AyudaCActivity"></activity>
+        <activity android:name=".AyudaNActivity" /> <!-- Set to true if app can function without mobile companion app. -->
         <meta-data
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
@@ -27,7 +26,6 @@
         <uses-library
             android:name="com.google.android.wearable"
             android:required="false" />
-
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
