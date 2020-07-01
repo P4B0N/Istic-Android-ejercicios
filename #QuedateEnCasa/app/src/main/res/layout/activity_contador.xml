@@ -68,7 +68,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:text=""
-        android:textColor="#05386B"
+        android:textColor="@color/ambient_mode_text"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/btnContar"
         app:layout_constraintEnd_toEndOf="parent"
